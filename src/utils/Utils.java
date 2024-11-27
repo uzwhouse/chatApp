@@ -1,11 +1,13 @@
 package utils;
 
+import user.User;
 import user.UserService;
 
 import java.util.Scanner;
 
 public class Utils {
     public static UserService userService = new UserService();
+    public static User sessionUser = null;
 
     public static Scanner scanner = new Scanner(System.in);
 
@@ -13,4 +15,5 @@ public class Utils {
         System.out.print(hint);
         return scanner.nextLine();
     }
+
 }

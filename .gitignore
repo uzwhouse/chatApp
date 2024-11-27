@@ -109,3 +109,5 @@ fabric.properties
 /.idea/modules.xml
 /data/users.txt
 /.idea/vcs.xml
+/data/chat.dat
+/data/users.dat

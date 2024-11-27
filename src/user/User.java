@@ -44,7 +44,7 @@ public class User implements Serializable {
 
     @Override
     public String toString() {
-        return "user.User{" +
+        return "User{" +
                 "email='" + email + '\'' +
                 ", password='" + password + '\'' +
                 ", registrationTime=" + registrationTime +
